@@ -1,0 +1,46 @@
+
+div.imagenprime_nosotros {
+  background-image: url("../imagen/identidad.jpg");
+  	height: 500px;
+	margin-top: -30px;
+		  }
+div.card-img-overlay{
+border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	padding-top: 0px;
+}
+
+.texto-encima{
+    position: absolute;
+     top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}
+.centrado{
+	
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+}
+h2.titulovision{
+	position: absolute;
+    top: 1150px;
+    left: 40%;
+transform: translate(50%, 50%);
+}
+
+div.container_mision{
+	
+}
+
+h2.segundotitulo{
+	margin-top: 100px;
+	margin-left: -80px;
+}
+p.parrafosegundo{
+	margin-top: 30px;
+	margin-left: -80px;
+	margin-right: -20px;
+}

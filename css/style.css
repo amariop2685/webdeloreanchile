@@ -1,20 +1,24 @@
-html{
-	box-sizing: border-box;
-	min-height: 100%;
+html {
+    box-sizing: border-box;
+    min-height: 100%;
 }
-*, *:before, *:after{
-	box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body.cuerpo {
-	font-family: 'Montserrat', sans-serif;
-	height: auto;
-
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
 }
 
+
 /* Style the header */
+
 header {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #FFFFFF;
     padding: 30px;
     text-align: right;
@@ -22,20 +26,21 @@ header {
     color: white;
 }
 
-div.w3-bar.w3-black.w3-hide-small{
-font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+div.w3-bar.w3-black.w3-hide-small {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 div.imagenprime {
-  background-image: url("../imagen/inicio.jpg");
-  background-attachment: fixed;
-	height: 300px;
-	margin-top: -30px;
+    background-image: url("../imagen/inicio.jpg");
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: -30px;
 }
-div.col-sm-8{
-	align-items: center;
-	margin-top: 8px;
+
+div.col-sm-8 {
+    align-items: center;
+    margin-top: 8px;
 }
 
 article {
@@ -43,17 +48,22 @@ article {
     padding: 20px;
     width: 100%;
     background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
+    height: 300px;
+    /* only for demonstration, should be removed */
 }
 
+
 /* Clear floats after the columns */
+
 section:after {
     content: "";
     display: table;
     clear: both;
 }
 
+
 /* Style the footer */
+
 p.pie {
     background-color: #790;
     padding: 10px;
@@ -62,62 +72,64 @@ p.pie {
 }
 
 footer {
-	box-sizing: border-box;
-    background-color:#1F1F1F;
+    box-sizing: border-box;
+    min-height: 100%;
+    background-color: #1F1F1F;
     text-align: center;
     color: white;
 }
-div.jumbotron.text-center {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #1F1F1F;
-	padding: 0px 0px 0px 0px;
-	margin-bottom: 0px;
-	
 
+div.jumbotron.text-center {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1F1F1F;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0px;
 }
-h2.pieinicio{
-	font-size: 20px;	
+
+h2.pieinicio {
+    font-size: 20px;
 }
-p.pietext_inicio{
-	font-size: 12px;
+
+p.pietext_inicio {
+    font-size: 12px;
 }
 
 .fakeimg {
-      height: 200px;
-      background: #FCFCFC;
-  }
-.lead{
-
+    height: 200px;
+    background: #FCFCFC;
 }
 
-.img-fluid{ 
-  max-width: 100%;
-  height: auto;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
+
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
 @media (max-width: 600px) {
-    nav, article {
-        
-    }
+    nav,
+    article {}
 }
 
 html {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 @include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
+    html {
+        font-size: 1.2rem;
+    }
 }
 
 @include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
+    html {
+        font-size: 1.4rem;
+    }
 }
+
 @include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+    html {
+        font-size: 1.6rem;
+    }
 }

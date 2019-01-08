@@ -1,4 +1,10 @@
-
+html{
+	box-sizing: border-box;
+	min-height: 100%;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
 div.imagenprime_nosotros {
   background-image: url("../imagen/identidad.jpg");
   	height: 500px;

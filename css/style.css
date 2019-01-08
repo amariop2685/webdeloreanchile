@@ -1,6 +1,13 @@
-body.cuerpo {
+html{
 	box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+	min-height: 100%;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+body.cuerpo {
+	font-family: 'Montserrat', sans-serif;
 	height: auto;
 
 }

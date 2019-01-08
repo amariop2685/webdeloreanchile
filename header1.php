@@ -1,6 +1,6 @@
-<header class="w3-container w3-center w3-padding-48 w3-white">
+<header class="w3-container w3-center w3-padding-48 w3-white" style="margin-top: 10px;">
 <div class="row" style="margin-top: -48px"> <!--dividir la misma columna de logo y menu-->
-<div class="w3-bar w3-black w3-hide-small" style="width: 1500px;">
+<div class="w3-bar w3-black w3-hide-small" style="width: 1500px;font-size: 12px; margin-top: -10px">
   <a href="tel:#" class="w3-bar-item w3-button"><i class="fa fa-phone"></i> Telefóno: +56(2)2897-4700</a>
   <a href="tel:#" class="w3-bar-item w3-button"><i class="fa fa-whatsapp"></i> Telefóno: +56(9)5228-4219</a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-map-marker"></i> Av.Libertador Bernardo O'Higgins 1302, Of.70, comuna Santiago</a>

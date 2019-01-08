@@ -108,3 +108,10 @@ footer {
     text-align: center;
     color: white;
 }
+
+div.jumbotron.text-center {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1F1F1F;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0px;
+}

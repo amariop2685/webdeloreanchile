@@ -101,7 +101,7 @@ p.text-newspaper {
     width: 250px;
 }
 
-footer {
+footer.pie {
     clear: both;
     background-color: #1F1F1F;
     text-align: center;

@@ -1,5 +1,4 @@
-</body>
-<footer>
+<footer class="pie">
 <div class="jumbotron text-center" style="padding-top: 20px">
   <div class="row align-items-start">
               <div class="col">
@@ -29,5 +28,5 @@
                     
                     </div>
                   </div>
-</footer>
+<footer>
 </html>

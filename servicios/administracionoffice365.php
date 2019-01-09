@@ -29,7 +29,7 @@
 
 
 		<!--Slider -->
-	
+	<body>
 	<div>
 			<div class="container-slider">
 				<div class="row">
@@ -373,8 +373,6 @@
 </div>
 </div>
 </div>
-
+</body>
 <!--footer-->
 <?php include_once('../footer.php');?>
-
-

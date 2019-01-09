@@ -9,6 +9,15 @@ html {
     box-sizing: inherit;
 }
 
+header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    padding: 30px;
+    text-align: right;
+    font-size: 14px;
+    color: white;
+}
+
 div.container-slider {
     background-color: #444444;
     margin-top: -28px;
@@ -101,9 +110,21 @@ p.text-newspaper {
     width: 250px;
 }
 
+
+/* Style the footer */
+
 footer.pie {
-    clear: both;
+    box-sizing: border-box;
+    min-height: 100%;
     background-color: #1F1F1F;
+    text-align: center;
+    color: white;
+    margin-top: 400px;
+}
+
+p.pie {
+    background-color: #790;
+    padding: 10px;
     text-align: center;
     color: white;
 }
@@ -113,4 +134,12 @@ div.jumbotron.text-center {
     background-color: #1F1F1F;
     padding: 0px 0px 0px 0px;
     margin-bottom: 0px;
+}
+
+h2.pieinicio {
+    font-size: 20px;
+}
+
+p.pietext_inicio {
+    font-size: 12px;
 }

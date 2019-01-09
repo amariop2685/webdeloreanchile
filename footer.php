@@ -1,6 +1,6 @@
 <footer class="pie">
-<div class="jumbotron text-center" style="padding-top: 20px">
-  <div class="row align-items-start">
+  <div class="jumbotron text-center" style="padding-top: 20px">
+    <div class="row align-items-start">
               <div class="col">
                   <h2 class="pieinicio"><b>ICOMAC</b></h2>
                 <p class="pietext_inicio">Somos una empresa aliada en suministro de Equipos de computo y elementos de oficinas.</p>
@@ -28,5 +28,6 @@
                     
                     </div>
                   </div>
-<footer>
+                
+  </footer>
 </html>

@@ -65,7 +65,7 @@
 												</div>
 													<p class="titulo-newspaper">EXCEL</p>
 													<p class="text-newspaper">- Compartir el libro con otros usuarios y colaborar en el mismo archivo al mismo tiempo.</br>- Agregar tablas y gráficos para hacer que sus datos sean más atractivos visualmente.</br>- Crear una encuesta.</br>- Filtrar una tabla.</br>- Usar Autosuma para sumar rápidamente los totales.</p>
-											</div>
+												</div>
 									</div>
 							</div>
 						</div>

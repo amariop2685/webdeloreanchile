@@ -26,7 +26,7 @@
 
 
 <?php include_once('../header1.php');?>
-
+<div>
 	<body>
 		<!--Slider -->
 	
@@ -370,8 +370,11 @@
 							
 				</div>
 	</div>	
-
-</body>  
-<!-- Footer -->
+</div>
+</div>
+</div>
+</body>
+<!--footer-->
 <?php include_once('../footer.php');?>
-	<!-- End of footer-->
+
+

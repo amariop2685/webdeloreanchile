@@ -102,8 +102,7 @@ p.text-newspaper {
 }
 
 footer {
-    box-sizing: border-box;
-    min-height: 100%;
+    clear: both;
     background-color: #1F1F1F;
     text-align: center;
     color: white;
